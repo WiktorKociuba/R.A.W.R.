@@ -1,0 +1,58 @@
+{
+  "custom_cursors": 2,
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 1000 50Meg 300Meg",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(GND) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(GND) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "cursor1": {
+            "position": 118000000.0,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 136000000.0,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "signal": "V(Net-_C5-Pad2_) (gain)",
+          "trace_type": 521
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 7
+}
