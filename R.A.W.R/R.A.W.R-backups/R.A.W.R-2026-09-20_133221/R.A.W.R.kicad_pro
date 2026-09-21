@@ -669,17 +669,13 @@
         "uuid": "2e25a181-2d09-4815-b900-9881fc510404"
       }
     ],
-    "used_designators": "RV1,U1-2,Q1-2,IC1-2,R1-20,V1-2,LS1,Y1-2,#PWR1-37,L1-3,L5-6,D1,C1-31,J1",
+    "used_designators": "IC1-2,R1-2,V1,Y1-2,#PWR1-14,L1-3,C1-14,J1",
     "variants": []
   },
   "sheets": [
     [
       "2e25a181-2d09-4815-b900-9881fc510404",
       "Root"
-    ],
-    [
-      "a77848b9-e1c7-49cf-a5bf-3b578d61be8d",
-      "AM Demodulator"
     ]
   ],
   "text_variables": {},
