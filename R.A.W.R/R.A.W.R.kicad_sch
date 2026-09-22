@@ -1041,6 +1041,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Variable"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Variable"
+				(at 0.635 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Variable capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "trimmer capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Variable_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.508 2.286)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Variable_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal"
 			(pin_numbers
 				(hide yes)
@@ -3867,6 +4048,12 @@
 		(uuid "6e77e5d3-9df7-46bb-bd27-958f9fe404a9")
 	)
 	(junction
+		(at 222.25 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72278aad-1f55-4fc6-9163-94fc5ba12fb9")
+	)
+	(junction
 		(at 245.11 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3897,6 +4084,18 @@
 		(uuid "9fcf3700-cfb5-4329-ad57-f2e74c37ef66")
 	)
 	(junction
+		(at 245.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30029e2-abf9-492b-b9ef-ae9db57b609a")
+	)
+	(junction
+		(at 245.11 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b101b74c-6c10-443c-a486-819dff80b6b2")
+	)
+	(junction
 		(at 153.67 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3919,6 +4118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3573905-4898-4227-9b22-52da05037bcc")
+	)
+	(junction
+		(at 222.25 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53eac0a-a0c2-4d1e-bf15-37d3bca425f9")
 	)
 	(junction
 		(at 138.43 29.21)
@@ -4116,6 +4321,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 57.15) (xy 250.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b1fa93-9584-439e-92ff-0a5203efc18d")
+	)
+	(wire
+		(pts
 			(xy 46.99 40.64) (xy 40.64 40.64)
 		)
 		(stroke
@@ -4196,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 245.11 49.53)
+			(xy 245.11 46.99) (xy 245.11 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4223,6 +4438,16 @@
 			(type default)
 		)
 		(uuid "07b8c519-362d-429b-a789-29dd65246818")
+	)
+	(wire
+		(pts
+			(xy 250.19 58.42) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7d48ab-c230-4583-9120-eb36844c6954")
 	)
 	(wire
 		(pts
@@ -4353,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "23a2c518-4d54-4e86-b103-55ac47336780")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f82f23-3100-405c-b8d5-3501bc31ae47")
 	)
 	(wire
 		(pts
@@ -4496,6 +4731,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 48.26) (xy 250.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b42adb4-3c09-4d8c-9b29-99893c9a257e")
+	)
+	(wire
+		(pts
 			(xy 274.32 27.94) (xy 274.32 30.48)
 		)
 		(stroke
@@ -4623,6 +4868,16 @@
 			(type default)
 		)
 		(uuid "4a2a75a2-de7d-47a7-9cd5-697784b40bb7")
+	)
+	(wire
+		(pts
+			(xy 245.11 48.26) (xy 250.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5346b3-a753-478a-9ac0-bd22f26dd155")
 	)
 	(wire
 		(pts
@@ -5026,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 48.26) (xy 227.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4d0f0c-5c49-4662-b805-1939b57f3bb5")
+	)
+	(wire
+		(pts
 			(xy 153.67 39.37) (xy 153.67 40.64)
 		)
 		(stroke
@@ -5043,6 +5308,16 @@
 			(type default)
 		)
 		(uuid "6fb4023c-ccce-4f31-89e3-f5018fda18c3")
+	)
+	(wire
+		(pts
+			(xy 227.33 58.42) (xy 222.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703cc4f9-b862-40f9-89e6-5882dd719de1")
 	)
 	(wire
 		(pts
@@ -5103,6 +5378,16 @@
 			(type default)
 		)
 		(uuid "7576f187-230a-4f5e-b863-254817ac6368")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 245.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e6814a-3a71-43e0-8619-5e33c76e612c")
 	)
 	(wire
 		(pts
@@ -5236,6 +5521,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 48.26) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b1f7d1-ef08-4e3e-a764-9b4bdb0b52ff")
+	)
+	(wire
+		(pts
 			(xy 90.17 26.67) (xy 93.98 26.67)
 		)
 		(stroke
@@ -5323,6 +5618,16 @@
 			(type default)
 		)
 		(uuid "a0020b84-db9a-4d97-9478-4a665ebf0e8c")
+	)
+	(wire
+		(pts
+			(xy 245.11 48.26) (xy 245.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00adbe7-ef4b-485f-a5a9-7709341c6314")
 	)
 	(wire
 		(pts
@@ -5526,7 +5831,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 57.15) (xy 245.11 60.96)
+			(xy 245.11 57.15) (xy 245.11 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 57.15) (xy 222.25 60.96)
+			(xy 222.25 57.15) (xy 222.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5886,6 +6191,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 48.26) (xy 222.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0d8110-29ab-4758-906e-ba2067ec3254")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 40.64 26.67)
 		)
 		(stroke
@@ -5893,6 +6208,16 @@
 			(type default)
 		)
 		(uuid "e04a6d62-76ed-48bd-82ca-cd0f02288971")
+	)
+	(wire
+		(pts
+			(xy 222.25 58.42) (xy 222.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1912c3a-79ae-4851-81d1-ee3134e3436d")
 	)
 	(wire
 		(pts
@@ -6076,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 46.99) (xy 222.25 49.53)
+			(xy 222.25 46.99) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7496,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.75 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -7576,7 +7901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.01 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +8059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 149.5552 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8050,7 +8375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 173.482 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -8207,7 +8532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 48.26 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 90.17 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -8368,7 +8693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8449,7 +8774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 148.8948 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +8855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 144.78 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8612,7 +8937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.6148 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8692,7 +9017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 245.11 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -8773,7 +9098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.3848 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADE1"
+		(property "Footprint" "RAWR:ADE1"
 			(at 267.97 117.78 0)
 			(hide yes)
 			(show_name no)
@@ -9242,7 +9567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" ""
 			(at 157.48 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9357,7 +9682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 187.96 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -9438,7 +9763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 40.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9598,7 +9923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9835,7 +10160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Filter:Filter_Murata_BNX025"
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_031-6575_Horizontal"
 			(at 22.86 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9916,7 +10241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.8348 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +10398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 48.26 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -10308,7 +10633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PSA45043"
+		(property "Footprint" "RAWR:PSA45043"
 			(at 97.79 -65.71 0)
 			(hide yes)
 			(show_name no)
@@ -10456,7 +10781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -10538,7 +10863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "RAWR:SOP50P490X110-10N"
 			(at 191.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10799,7 +11124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 155.2448 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10959,7 +11284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 46.0248 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11038,7 +11363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 48.26 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -11096,10 +11421,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8eb867a1-d70a-4ed4-b22a-6e78a2de8505")
 		(property "Reference" "C21"
-			(at 248.92 52.0699 0)
+			(at 245.872 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11109,8 +11433,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 248.92 54.6099 0)
+		(property "Value" "82p"
+			(at 245.11 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11120,7 +11444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11278,7 +11602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.2252 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11408,6 +11732,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Variable")
+		(at 250.19 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "960e6bb3-35af-477f-bbdd-f10d57b457d5")
+		(property "Reference" "C48"
+			(at 251.968 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8p-30p"
+			(at 250.444 55.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZC3"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Variable capacitor"
+			(at 250.19 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b473f0f-9252-4b4a-abd0-7629d3ccf866")
+		)
+		(pin "2"
+			(uuid "581c492d-6225-4dec-8b3f-1780288fa597")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 138.43 41.91 180)
 		(unit 1)
@@ -11440,7 +11845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.4648 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11598,7 +12003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 38.1 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -11779,7 +12184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 198.4248 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -11861,7 +12266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.2252 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11940,7 +12345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 205.74 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -12019,7 +12424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 205.74 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -12179,7 +12584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 260.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12258,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.75 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -12337,7 +12742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:NXP_LQFN-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm_16xMask0.45x0.45_ThermalVias"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12401,10 +12806,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c38e8b88-f5f7-48c3-85d7-120e729f21e4")
 		(property "Reference" "C19"
-			(at 226.06 52.0699 0)
+			(at 222.758 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12414,8 +12818,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 226.06 54.6099 0)
+		(property "Value" "82p"
+			(at 222.25 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12425,7 +12829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.2152 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12506,7 +12910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 181.3052 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12588,7 +12992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.2052 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +13073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 204.7748 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -12827,7 +13231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 172.72 80.3148 0)
 			(hide yes)
 			(show_name no)
@@ -13139,7 +13543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" ""
 			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13327,7 +13731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 183.1848 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -13642,7 +14046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -13763,6 +14167,87 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Variable")
+		(at 227.33 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fea4605e-22a5-49c9-8262-709718929197")
+		(property "Reference" "C47"
+			(at 228.854 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8p-30p"
+			(at 228.092 55.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Trimmer_Murata_TZC3"
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Variable capacitor"
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cc11bfd-0a3e-49d0-bd8f-81e881aec70c")
+		)
+		(pin "2"
+			(uuid "3f139d28-08c1-4077-b170-585b34175dee")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404"
+					(reference "C47")
 					(unit 1)
 				)
 			)

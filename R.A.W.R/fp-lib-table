@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RAWR") (type "KiCad") (uri "${KIPRJMOD}/RAWR.pretty") (options "") (descr ""))
+)

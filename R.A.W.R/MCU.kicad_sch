@@ -12,6 +12,661 @@
 		(comment 1 "Based on \"Hardware design with RP2350\" by Raspberry Pi")
 	)
 	(lib_symbols
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_Shielded:Conn_01x03_Shielded"
 			(pin_names
 				(offset 1.016)
@@ -2780,6 +3435,12 @@
 		(uuid "1a7085e5-6cc5-4f66-b1a1-704c4a6569fc")
 	)
 	(junction
+		(at 233.68 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e69203-6e46-4ad8-bbbb-2e8bab1b69d4")
+	)
+	(junction
 		(at 97.79 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2798,6 +3459,12 @@
 		(uuid "200f0b8b-f9db-42bc-a9b7-b81a6da61154")
 	)
 	(junction
+		(at 210.82 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "218f4f18-0559-4523-8d4b-90c93a3bcc71")
+	)
+	(junction
 		(at 229.87 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,16 +3477,16 @@
 		(uuid "2ea71abb-1299-41de-861b-4e09f82f8e6b")
 	)
 	(junction
-		(at 109.22 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "313ec973-468c-4116-9cc9-3c76930afcf3")
-	)
-	(junction
 		(at 176.53 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae21788-6c20-4c9b-846e-1c3ada54b4c1")
+	)
+	(junction
+		(at 233.68 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "421752b4-d609-494b-abfa-6e93ecb88c7e")
 	)
 	(junction
 		(at 207.01 62.23)
@@ -2832,6 +3499,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c4a5bec-c4e3-4eff-a511-4f4655a38b77")
+	)
+	(junction
+		(at 97.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5196866f-3102-4906-9942-7f69078bc24a")
 	)
 	(junction
 		(at 85.09 135.89)
@@ -2874,6 +3547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f467449-a559-40a7-8a18-a3e4f2ff7bc4")
+	)
+	(junction
+		(at 250.19 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8411ea3e-433c-4253-8ad4-fa15af5dcd42")
 	)
 	(junction
 		(at 66.04 140.97)
@@ -2924,12 +3603,6 @@
 		(uuid "d432aea5-f777-4255-90ce-fb7502b3bd03")
 	)
 	(junction
-		(at 97.79 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d80e1194-0527-469b-8966-547eee4c866c")
-	)
-	(junction
 		(at 166.37 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2953,6 +3626,12 @@
 		(color 0 0 0 0)
 		(uuid "fc305a4b-5343-4d50-ae9c-518e4a7976f5")
 	)
+	(junction
+		(at 109.22 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe85be88-77fb-4b73-adba-8e4b3680e91a")
+	)
 	(no_connect
 		(at 104.14 123.19)
 		(uuid "1efdf6c6-9916-4b90-b75b-3b0fa9b7f13d")
@@ -2964,6 +3643,10 @@
 	(no_connect
 		(at 104.14 118.11)
 		(uuid "675582b2-1536-4390-8bff-b0b590a5742d")
+	)
+	(no_connect
+		(at 229.87 106.68)
+		(uuid "78848adc-c1f8-4bd9-a347-d1d0f4903f53")
 	)
 	(no_connect
 		(at 104.14 128.27)
@@ -2992,6 +3675,16 @@
 			(type default)
 		)
 		(uuid "01a235b5-2adc-4904-9812-40d422c3af3d")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046fe83b-5157-4559-ac6e-659a7ea4d1ff")
 	)
 	(wire
 		(pts
@@ -3155,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a1b55f-7c7a-4d46-8a9b-8d4d65cd151c")
+	)
+	(wire
+		(pts
 			(xy 218.44 62.23) (xy 218.44 64.77)
 		)
 		(stroke
@@ -3185,6 +3888,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 121.92) (xy 233.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a85d086-500a-4639-a78b-d4231f528b34")
+	)
+	(wire
+		(pts
 			(xy 66.04 146.05) (xy 66.04 147.32)
 		)
 		(stroke
@@ -3192,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "2b4b1262-493a-4367-ab0d-ccf86dd506b3")
+	)
+	(wire
+		(pts
+			(xy 207.01 144.78) (xy 207.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b91b57d-c6ad-4a73-b03b-2af66a757f50")
 	)
 	(wire
 		(pts
@@ -3205,13 +3928,33 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 114.3 68.58)
+			(xy 109.22 60.96) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d155ca3-3c09-45d2-aa32-aea191f09fb2")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d5596b3-c3f2-4dcf-9f81-2e0155babe21")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 250.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b5bf80-ea28-4757-b59c-3031500ae8a2")
 	)
 	(wire
 		(pts
@@ -3305,6 +4048,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 120.65) (xy 242.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfdc47a-f9f6-42f4-bd86-040a5a9b56ab")
+	)
+	(wire
+		(pts
 			(xy 91.44 166.37) (xy 92.71 166.37)
 		)
 		(stroke
@@ -3365,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 119.38) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eef3a45-8f62-49a0-b55e-13f2c63aaffb")
+	)
+	(wire
+		(pts
 			(xy 78.74 135.89) (xy 85.09 135.89)
 		)
 		(stroke
@@ -3405,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 111.76) (xy 250.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5578338f-4ae0-44b0-9760-109155266ed2")
+	)
+	(wire
+		(pts
 			(xy 166.37 62.23) (xy 166.37 64.77)
 		)
 		(stroke
@@ -3435,6 +4208,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 121.92) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcdff8b-347f-45dc-aede-6efd60604b6e")
+	)
+	(wire
+		(pts
 			(xy 116.84 59.69) (xy 116.84 60.96)
 		)
 		(stroke
@@ -3462,6 +4245,16 @@
 			(type default)
 		)
 		(uuid "6095942e-1b99-4029-9769-5d8950f944bf")
+	)
+	(wire
+		(pts
+			(xy 214.63 148.59) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62926897-116c-46a9-9eb0-857ea5d76376")
 	)
 	(wire
 		(pts
@@ -3565,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 111.76) (xy 250.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf7903d-2e38-4913-b292-396189dba44e")
+	)
+	(wire
+		(pts
 			(xy 97.79 58.42) (xy 97.79 60.96)
 		)
 		(stroke
@@ -3572,6 +4375,16 @@
 			(type default)
 		)
 		(uuid "7105fdd0-3075-441a-99cc-265c561d0daf")
+	)
+	(wire
+		(pts
+			(xy 229.87 127) (xy 233.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dd9509-299b-4481-b105-9ec7ec92a053")
 	)
 	(wire
 		(pts
@@ -3605,6 +4418,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 125.73) (xy 233.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5b8348-bca3-4f79-8e1f-9a97c1a9ade5")
+	)
+	(wire
+		(pts
 			(xy 176.53 62.23) (xy 176.53 64.77)
 		)
 		(stroke
@@ -3622,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "80facb49-f3f3-4877-90d9-0aa9efc8813b")
-	)
-	(wire
-		(pts
-			(xy 109.22 59.69) (xy 109.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8138ec5b-92ed-4b89-958e-2d989eec934e")
 	)
 	(wire
 		(pts
@@ -3665,6 +4478,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 148.59) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e43cf1e-ea16-4b29-a23a-8e9170c246da")
+	)
+	(wire
+		(pts
 			(xy 186.69 38.1) (xy 186.69 40.64)
 		)
 		(stroke
@@ -3685,6 +4508,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 120.65) (xy 233.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94955044-c4d1-4a09-b31d-f7307a33c7c6")
+	)
+	(wire
+		(pts
 			(xy 176.53 38.1) (xy 186.69 38.1)
 		)
 		(stroke
@@ -3702,6 +4535,16 @@
 			(type default)
 		)
 		(uuid "965c1784-32e4-46de-9b8f-469c624c290f")
+	)
+	(wire
+		(pts
+			(xy 250.19 114.3) (xy 250.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce475d5-7470-4d34-85b0-5dc92f39c89c")
 	)
 	(wire
 		(pts
@@ -3825,13 +4668,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 68.58) (xy 97.79 68.58)
+			(xy 229.87 114.3) (xy 234.95 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7730eea-1faa-4c40-9e8e-f5cd91cb0151")
+		(uuid "b92ec2c7-42fd-466d-84b5-3b0dbb796c6b")
 	)
 	(wire
 		(pts
@@ -3925,6 +4768,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 124.46) (xy 229.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacd4ff9-5bab-407c-8f0d-7e31f8fdbb28")
+	)
+	(wire
+		(pts
 			(xy 140.97 74.93) (xy 140.97 38.1)
 		)
 		(stroke
@@ -4005,6 +4858,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 124.46) (xy 233.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0937491-44c0-4ecb-94ac-8c2249fcb66f")
+	)
+	(wire
+		(pts
 			(xy 93.98 58.42) (xy 97.79 58.42)
 		)
 		(stroke
@@ -4075,6 +4938,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 125.73) (xy 242.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2102f4a-eb01-4e0f-b221-470386570c7d")
+	)
+	(wire
+		(pts
+			(xy 229.87 111.76) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f496df74-ba87-416e-b639-56c0f32bdb2e")
+	)
+	(wire
+		(pts
 			(xy 66.04 140.97) (xy 80.01 140.97)
 		)
 		(stroke
@@ -4082,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "fcecf60b-fa4d-4e6d-a25f-bf30dd15caed")
+	)
+	(wire
+		(pts
+			(xy 210.82 148.59) (xy 210.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd599b28-886c-4159-aeb3-eeb1db6c090b")
 	)
 	(label "USB_DP"
 		(at 54.61 81.28 270)
@@ -4112,6 +5005,26 @@
 			(justify left bottom)
 		)
 		(uuid "7c2d2a70-107f-4315-8dce-c8c199254e60")
+	)
+	(label "USB_DM"
+		(at 242.57 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad52f945-3d0c-4306-95ce-8f08c3e901cb")
+	)
+	(label "USB_DP"
+		(at 242.57 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5ea80f7-809e-45c4-8ec5-1a571070e126")
 	)
 	(hierarchical_label "GPIO8"
 		(shape bidirectional)
@@ -4476,7 +5389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:ABM8272T3"
 			(at 85.09 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4663,7 +5576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 177.4952 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4929,7 +5842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 219.4052 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5194,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.3352 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 177.4952 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5414,7 +6327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "RAWR:AOTAB201610S3R3101T"
 			(at 116.84 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5447,6 +6360,16 @@
 				)
 			)
 		)
+		(property "Field5" "2.1A"
+			(at 118.364 68.072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13cb6f12-c232-4d21-a215-02254bd1a281")
 		)
@@ -5457,6 +6380,127 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "339274b2-ceaf-45ee-ba10-3706564419ac")
+		(property "Reference" "C33"
+			(at 99.06 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 96.774 63.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 98.7552 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "M1005"
+			(at 93.472 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "6.3V"
+			(at 93.472 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "X5R"
+			(at 93.472 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "20%"
+			(at 93.472 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "146ee970-cada-452a-9954-4de8920a148f")
+		)
+		(pin "1"
+			(uuid "5d20c6ed-8b98-42e7-a40e-5b3a1b88d433")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5495,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:NXP_LQFN-48-1EP_7x7mm_P0.5mm_EP3.5x3.5mm_16xMask0.45x0.45_ThermalVias"
+		(property "Footprint" ""
 			(at 100.33 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5559,7 +6603,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48ca4216-e015-487a-83ba-9b8480db7b52")
 		(property "Reference" "C32"
 			(at 92.71 77.4699 0)
@@ -5583,7 +6626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 89.8652 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5608,6 +6651,46 @@
 		(property "Description" "Unpolarized capacitor"
 			(at 88.9 78.74 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "M1005"
+			(at 83.312 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "6.3V"
+			(at 83.312 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "X5R"
+			(at 83.312 80.518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "20%"
+			(at 83.312 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5742,7 +6825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 187.6552 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5898,6 +6981,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 238.76 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cafa038-a307-4272-a515-5f79f8a41820")
+		(property "Reference" "R33"
+			(at 233.934 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 243.586 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 238.76 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d9e8e32-5d81-4de2-b448-1d5ae5a93824")
+		)
+		(pin "1"
+			(uuid "99b4687c-85d5-4ca3-96e4-78e325cd0ccc")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 68.58 0)
 		(unit 1)
@@ -5930,7 +7092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.3352 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6040,7 +7202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 71.12 147.0152 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 61.722 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 52.832 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -6415,87 +7577,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75ae1b51-a499-48cd-9346-6f4b71148034")
-		(property "Reference" "C33"
-			(at 98.298 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 98.806 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 98.7552 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f44e2527-3fe5-4391-a248-a196c7ef1f96")
-		)
-		(pin "1"
-			(uuid "0e244dd3-e968-414f-bb2e-227c357ddf64")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 207.01 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -6527,7 +7608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 207.9752 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6791,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 96.52 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -6957,9 +8038,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "92155cc4-5361-4a26-ae2b-06e1802961b6")
+		(uuid "9712167e-7df7-4431-9a7d-f83e63c21e09")
 		(property "Reference" "C34"
-			(at 109.728 62.484 0)
+			(at 109.474 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6970,7 +8051,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 109.728 67.31 0)
+			(at 109.474 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6980,7 +8061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 110.1852 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7013,11 +8094,51 @@
 				)
 			)
 		)
+		(property "Field5" "M1005"
+			(at 104.902 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "6.3V"
+			(at 104.902 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "X5R"
+			(at 104.902 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "20%"
+			(at 104.902 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "8272674e-1f8a-4918-8844-8b944e5617b7")
+			(uuid "8f9606d9-77b7-4850-9424-93dfc93bee17")
 		)
 		(pin "1"
-			(uuid "e7ce2148-40c0-4ac9-b013-b952bf6f8263")
+			(uuid "5d438101-6837-48c0-9cb9-6fdd75cd6f9d")
 		)
 		(instances
 			(project "R.A.W.R"
@@ -7218,7 +8339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 129.54 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" ""
 			(at 81.28 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7575,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 96.52 113.792 90)
 			(hide yes)
 			(show_name no)
@@ -7684,7 +8805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 93.98 96.012 90)
 			(hide yes)
 			(show_name no)
@@ -7841,6 +8962,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 214.63 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ddfc94-bfdf-4564-98b8-85ebc5a12ab4")
+		(property "Reference" "J4"
+			(at 214.63 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 214.63 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 214.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A12"
+			(uuid "c6abbf61-f0b8-43ad-a0a0-22dbfbfb052d")
+		)
+		(pin "A6"
+			(uuid "2de2cb3b-5873-4c68-8dcd-27e85d0d1aa3")
+		)
+		(pin "A7"
+			(uuid "f56818a3-265c-430c-abc8-136ae1d836c7")
+		)
+		(pin "A5"
+			(uuid "ba1f23a3-1e60-4275-a737-86851a0245c8")
+		)
+		(pin "B6"
+			(uuid "da9a41d6-6ec7-4062-9d6a-785d51b0ff08")
+		)
+		(pin "B1"
+			(uuid "767b3e1f-8565-43fc-ad7f-15c4a3869698")
+		)
+		(pin "B7"
+			(uuid "9f083861-4a8f-4a37-98a4-a5e4f7a4fe9b")
+		)
+		(pin "B9"
+			(uuid "fe025fb3-f0fd-4379-8765-8a9092e95c6d")
+		)
+		(pin "B4"
+			(uuid "acbb3dc4-95c4-48b5-bd87-767917ac9aa0")
+		)
+		(pin "B5"
+			(uuid "998619cd-4bc4-4fad-9719-904b3339f2d9")
+		)
+		(pin "A9"
+			(uuid "40499576-8b87-4d76-8784-895a42e73d65")
+		)
+		(pin "A1"
+			(uuid "c18d58ee-0bb1-48b9-98d5-5ddd3f19022c")
+		)
+		(pin "A4"
+			(uuid "ea23e748-8173-4aaf-af6b-c1db390a8cdb")
+		)
+		(pin "B12"
+			(uuid "1c7db693-2db1-4f62-9c6f-fb98c118dd11")
+		)
+		(pin "SH"
+			(uuid "59dc0fad-b950-4870-98be-7e85e38c6a8d")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 67.31 0)
 		(unit 1)
@@ -7850,10 +9090,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d230bddc-f1de-4ff2-94e7-9ec8e69b7d0b")
 		(property "Reference" "R21"
-			(at 91.44 66.0399 0)
+			(at 87.884 64.516 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7864,7 +9103,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 91.44 68.5799 0)
+			(at 87.884 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7874,7 +9113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN40P1000X1000X90-81N-D"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -7899,6 +9138,36 @@
 		(property "Description" "Resistor"
 			(at 88.9 67.31 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "1%"
+			(at 84.328 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "63mW"
+			(at 84.074 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 84.328 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7955,7 +9224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 78.74 134.9248 0)
 			(hide yes)
 			(show_name no)
@@ -8065,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 197.8152 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +9444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 187.6552 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" ""
 			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8364,7 +9633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 230.8352 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8436,6 +9705,241 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7e9802-3121-4816-bfb5-666e92301a25")
+		(property "Reference" "#PWR059"
+			(at 210.82 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "891861bc-4183-4ecd-96f9-9c63c69c9fa5")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc306145-4ff3-4340-bfd1-eaf175fae0d3")
+		(property "Reference" "R32"
+			(at 233.934 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 243.586 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 238.76 113.538 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7fdbebc-7c04-41a3-8619-ed5471701f41")
+		)
+		(pin "1"
+			(uuid "24e8b09d-89e3-43fc-878c-abff9a179e4b")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda5cf2d-0d91-44d6-bd57-ff8c6e2c917a")
+		(property "Reference" "#PWR058"
+			(at 250.19 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "283ad395-a5cd-4892-bbb0-6ed7a055db73")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
