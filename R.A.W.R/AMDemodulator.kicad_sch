@@ -7665,28 +7665,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e2e1c27-d74d-4e12-928c-cc63165bfb3a")
+			(uuid "2e2e1c27-d74d-4e12-928c-cc63165bfb3b")
 		)
 		(pin "8"
-			(uuid "310c02a0-9e66-471b-8aca-8071be99badc")
+			(uuid "310c02a0-9e66-471b-8aca-8071be99badd")
 		)
 		(pin "6"
-			(uuid "b2bff68a-ed23-44be-bb84-66ce2893aeef")
+			(uuid "b2bff68a-ed23-44be-bb84-66ce2893aef0")
 		)
 		(pin "5"
-			(uuid "00cd8032-84ae-424d-84de-4bbf5be8564a")
+			(uuid "00cd8032-84ae-424d-84de-4bbf5be8564b")
 		)
 		(pin "2"
-			(uuid "6921e362-e4bf-42f0-b6b2-d06e51ba2146")
+			(uuid "6921e362-e4bf-42f0-b6b2-d06e51ba2147")
 		)
 		(pin "3"
-			(uuid "eb1457a5-ceff-4078-99e3-5e006344b074")
+			(uuid "eb1457a5-ceff-4078-99e3-5e006344b075")
 		)
 		(pin "7"
-			(uuid "1824260c-dfbe-4a2a-9576-1ae7b649db87")
+			(uuid "1824260c-dfbe-4a2a-9576-1ae7b649db88")
 		)
 		(pin "4"
-			(uuid "3bcdf5fc-027d-43d3-ace1-0d30c068f48d")
+			(uuid "3bcdf5fc-027d-43d3-ace1-0d30c068f48e")
 		)
 		(instances
 			(project "R.A.W.R"
