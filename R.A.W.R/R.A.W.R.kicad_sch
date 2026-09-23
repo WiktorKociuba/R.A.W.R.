@@ -7690,7 +7690,7 @@
 		)
 		(uuid "939be7bd-994a-421a-ab25-cd5f0186dd27")
 	)
-	(label "MX_FRQ"
+	(label "MIX_FRQ"
 		(at 222.25 46.99 0)
 		(effects
 			(font
@@ -9567,7 +9567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:PTV09A2020FA104"
 			(at 157.48 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11683,7 +11683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
 			(at 171.45 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13543,7 +13543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:SOIC127P600X175-8N"
 			(at 166.37 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:PEC11R4220FS0024"
 			(at 45.72 126.746 0)
 			(hide yes)
 			(show_name no)

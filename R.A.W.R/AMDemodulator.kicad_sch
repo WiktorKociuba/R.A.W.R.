@@ -922,7 +922,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -943,7 +943,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "MMBT3904"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -954,7 +954,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -967,7 +967,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -979,7 +979,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1001,7 +1001,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1023,7 +1023,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1034,7 +1034,7 @@
 					)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "MMBT3904_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1071,7 +1071,7 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
+			(symbol "MMBT3904_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1108,10 +1108,10 @@
 						(type outline)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1126,10 +1126,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5084,6 +5084,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 120.65 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09bbc014-8c53-483a-aa26-942020f90f48")
+		(property "Reference" "Q1"
+			(at 125.73 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 125.73 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.73 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 120.65 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e4d7a49-af4a-4d41-9e99-ecfec2511914")
+		)
+		(pin "3"
+			(uuid "7c82a777-191b-4ca6-8c3f-270c82251411")
+		)
+		(pin "1"
+			(uuid "f78c9968-67e8-4f89-8111-8d40d8b142f0")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 78.74 0)
 		(unit 1)
@@ -5280,7 +5390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:DIP794W53P254L959H508Q8N"
 			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5497,138 +5607,6 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 152.4 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "275a1ef6-fea0-4fa6-8378-056c4ebe0ea0")
-		(property "Reference" "Q2"
-			(at 157.48 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 157.48 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 88.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "is=6.7f bf=200 vaf=74 ikf=0.1 ise=6.7f ne=1.5 br=4 var=12 rb=10 re=0.5 rc=1 cje=4p tf=0.3n cjc=3p tr=20n"
-			(at 152.4 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20e8810c-6d7e-44ad-b7f5-45b845671261")
-		)
-		(pin "1"
-			(uuid "06fc62e6-78d7-4aa9-85e9-94b44eae6fc4")
-		)
-		(pin "3"
-			(uuid "9c8eb44f-3db7-4cc7-aff2-ac9a25f2fc73")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6441,138 +6419,6 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 120.65 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76048005-5959-446d-a41c-24ccbc3cd3f9")
-		(property "Reference" "Q1"
-			(at 125.73 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 125.73 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "is=6.7f bf=200 vaf=74 ikf=0.1 ise=6.7f ne=1.5 br=4 var=12 rb=10 re=0.5 rc=1 cje=4p tf=0.3n cjc=3p tr=20n"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4bbf0cb7-88a7-4e59-bbf1-2418dae7f525")
-		)
-		(pin "1"
-			(uuid "2287d60d-7796-4f41-a6fe-e92687af2142")
-		)
-		(pin "3"
-			(uuid "82ea8a6b-a13e-45be-8bac-d3bff7809467")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7540,6 +7386,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 152.4 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b98ab48e-b840-4fa0-9409-2ea027e95221")
+		(property "Reference" "Q2"
+			(at 157.48 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 157.48 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 157.48 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 152.4 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "178ca259-8e45-4025-aab1-b018b44c79af")
+		)
+		(pin "3"
+			(uuid "d4614bf7-e743-41d6-8854-c1d63d762b50")
+		)
+		(pin "1"
+			(uuid "01178600-affe-4782-90bf-f9f92e5143b4")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 154.94 67.31 0)
 		(unit 1)
@@ -7808,7 +7764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:DIP794W53P254L959H508Q8N"
 			(at 200.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7896,7 +7852,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5711"
+		(property "Value" "BAT43W"
 			(at 72.7075 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7906,7 +7862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 72.39 88.265 0)
 			(hide yes)
 			(show_name no)

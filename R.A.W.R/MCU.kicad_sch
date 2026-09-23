@@ -6539,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:SM03BSRSSTBLFSN"
 			(at 100.33 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8617,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:434133025816"
 			(at 81.28 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9552,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RAWR:434133025816"
 			(at 83.82 110.49 0)
 			(hide yes)
 			(show_name no)
