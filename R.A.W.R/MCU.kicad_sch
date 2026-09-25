@@ -1646,8 +1646,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 17.526 47.244 0)
+			(property "Reference" "U3"
+				(at 2.1433 -44.45 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1658,7 +1658,7 @@
 				)
 			)
 			(property "Value" "RP2354A"
-				(at 17.526 44.704 0)
+				(at 2.1433 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1760,7 +1760,7 @@
 			)
 			(symbol "RP2354A_1_0"
 				(pin power_in line
-					(at 12.7 45.72 270)
+					(at 11.43 45.72 270)
 					(length 3.81)
 					(name "DVDD"
 						(effects
@@ -1778,7 +1778,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 45.72 270)
+					(at 11.43 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "DVDD"
@@ -1796,7 +1796,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -17.78 45.72 270)
 					(length 3.81)
 					(name "VREG_AVDD"
@@ -1815,7 +1815,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -45.72 90)
+					(at -15.24 45.72 270)
 					(length 3.81)
 					(name "VREG_PGND"
 						(effects
@@ -1833,7 +1833,7 @@
 					)
 				)
 				(pin power_in line
-					(at -12.7 45.72 270)
+					(at 0 45.72 270)
 					(length 3.81)
 					(name "USB_OTP_VDD"
 						(effects
@@ -1851,7 +1851,7 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 45.72 270)
+					(at -2.54 45.72 270)
 					(length 3.81)
 					(name "QSPI_IOVDD"
 						(effects
@@ -1871,7 +1871,7 @@
 			)
 			(symbol "RP2354A_1_1"
 				(pin power_in line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(name "IOVDD"
 						(effects
@@ -2033,7 +2033,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "IOVDD"
@@ -2196,7 +2196,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "IOVDD"
@@ -2251,7 +2251,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 45.72 270)
+					(at 11.43 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "DVDD"
@@ -2378,7 +2378,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "IOVDD"
@@ -2523,7 +2523,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "IOVDD"
@@ -2614,7 +2614,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 45.72 270)
+					(at 2.54 45.72 270)
 					(length 3.81)
 					(name "ADC_AVDD"
 						(effects
@@ -2632,7 +2632,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 45.72 270)
+					(at 13.97 45.72 270)
 					(length 3.81)
 					(hide yes)
 					(name "IOVDD"
@@ -2651,7 +2651,7 @@
 					)
 				)
 				(pin power_out line
-					(at 5.08 45.72 270)
+					(at -12.7 45.72 270)
 					(length 3.81)
 					(name "VREG_LX"
 						(effects
@@ -2669,7 +2669,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 45.72 270)
+					(at -10.16 45.72 270)
 					(length 3.81)
 					(name "VREG_VIN"
 						(effects
@@ -2687,7 +2687,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 45.72 270)
+					(at -7.62 45.72 270)
 					(length 3.81)
 					(name "VREG_FB"
 						(effects
@@ -4647,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 62.23) (xy 229.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714761f5-c0b4-425d-a1c7-b4b4a1af9f6a")
+	)
+	(wire
+		(pts
 			(xy 229.87 127) (xy 233.68 127)
 		)
 		(stroke
@@ -5024,16 +5034,6 @@
 			(type default)
 		)
 		(uuid "c82966ed-728c-44da-be66-3e2478c03fee")
-	)
-	(wire
-		(pts
-			(xy 229.87 62.23) (xy 229.87 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca69971e-3d72-4018-9c44-d3a84260cab1")
 	)
 	(wire
 		(pts
@@ -5745,6 +5745,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 166.37 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06d5b75b-2506-4082-846c-2d821a2f4c9c")
+		(property "Reference" "C43"
+			(at 169.164 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 169.164 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 167.3352 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "25V"
+			(at 171.45 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "X7R"
+			(at 171.45 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 171.704 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 171.45 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a237dcb-7457-4df6-9c7a-e5e158abe54b")
+		)
+		(pin "2"
+			(uuid "c7b49e30-e897-43b1-8981-64dfb22a8816")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 93.98 54.61 0)
 		(unit 1)
@@ -5824,7 +5945,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 44.45 0)
+		(at 176.53 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5832,9 +5953,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "112a8fba-ea9c-4298-9145-03c128b376d2")
-		(property "Reference" "C43"
-			(at 179.324 39.878 0)
+		(uuid "10f98da2-dd41-4b34-8031-b2f5f3e7c9d7")
+		(property "Reference" "C44"
+			(at 179.324 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5845,7 +5966,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.324 41.91 0)
+			(at 179.324 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5856,7 +5977,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 177.4952 48.26 0)
+			(at 177.4952 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5867,7 +5988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 44.45 0)
+			(at 176.53 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,7 +5999,8 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 43.942 0)
+			(at 181.61 68.072 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5888,7 +6010,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 181.61 45.974 0)
+			(at 181.61 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5898,7 +6020,7 @@
 			)
 		)
 		(property "Field6" "X7R"
-			(at 181.61 47.752 0)
+			(at 181.61 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5908,7 +6030,17 @@
 			)
 		)
 		(property "Field7" "M1005"
-			(at 181.864 49.53 0)
+			(at 181.864 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 181.61 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5918,15 +6050,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "61a967cc-9188-463c-8a8f-2d7016d12365")
+			(uuid "c3bb939e-26d6-4201-a445-9c9c1ef588c6")
 		)
 		(pin "2"
-			(uuid "e6fb0a7e-b0a6-40e0-82a8-023b54bdff26")
+			(uuid "bbc3f722-a7e5-460e-8cfd-8330180982b8")
 		)
 		(instances
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6083,116 +6215,6 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 218.44 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1413e2b8-40c6-4e44-a4f7-486bde374b46")
-		(property "Reference" "C40"
-			(at 221.234 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 221.234 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 219.4052 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "25V"
-			(at 223.52 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "X7R"
-			(at 223.52 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "M1005"
-			(at 223.774 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0694d013-1243-4e02-a5ed-587ecb428a2c")
-		)
-		(pin "2"
-			(uuid "2b6d0636-f4ea-47d5-a1ad-0270cabd5f3e")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6410,6 +6432,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 171.45 43.942 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6448,6 +6471,16 @@
 				)
 			)
 		)
+		(property "Field8" "10%"
+			(at 171.45 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bc39259-85ce-4861-807d-c47b7312d230")
 		)
@@ -6465,7 +6498,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 68.58 0)
+		(at 186.69 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6473,9 +6506,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "219d0fb9-8ddf-4e40-9787-a538d050ebca")
-		(property "Reference" "C36"
-			(at 179.324 64.008 0)
+		(uuid "1e3ad3d7-fabf-4cd0-8a77-1873ad79f35a")
+		(property "Reference" "C74"
+			(at 189.484 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6486,7 +6519,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.324 66.04 0)
+			(at 189.484 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6497,7 +6530,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 177.4952 72.39 0)
+			(at 187.6552 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,7 +6541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 68.58 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6519,7 +6552,8 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 68.072 0)
+			(at 191.77 68.072 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6529,7 +6563,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 181.61 70.104 0)
+			(at 191.77 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6539,7 +6573,7 @@
 			)
 		)
 		(property "Field6" "X7R"
-			(at 181.61 71.882 0)
+			(at 191.77 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6549,7 +6583,17 @@
 			)
 		)
 		(property "Field7" "M1005"
-			(at 181.864 73.66 0)
+			(at 192.024 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 191.77 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6559,15 +6603,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb4aadff-2edc-4499-bbe8-40237dc39ded")
+			(uuid "e901aa24-75b3-403e-b9ea-72aeca2eb594")
 		)
 		(pin "2"
-			(uuid "72d2246a-5d8d-4a97-856e-bbbd647b955a")
+			(uuid "b1401dec-ece6-428f-b4fe-0167c0a3d999")
 		)
 		(instances
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C36")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -6951,6 +6995,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 176.53 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3916534c-d1df-425e-8021-13e7ee63010c")
+		(property "Reference" "C79"
+			(at 179.324 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 179.324 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 177.4952 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 43.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "25V"
+			(at 181.61 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "X7R"
+			(at 181.61 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 181.864 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 181.61 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "247e0d31-8ace-4eef-b961-f20103e602b6")
+		)
+		(pin "2"
+			(uuid "90fc2c2f-73b5-44aa-bf23-1ea6430d5548")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 232.41 105.41 270)
 		(unit 1)
@@ -7230,7 +7395,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 44.45 0)
+		(at 196.85 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7238,9 +7403,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "564ff3af-baee-4db3-abbb-65fbf5929e1e")
-		(property "Reference" "C44"
-			(at 189.484 39.878 0)
+		(uuid "5730eeab-75f6-4b2a-bdaf-d8e67ae0fa9d")
+		(property "Reference" "C75"
+			(at 199.644 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7251,7 +7416,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 189.484 41.91 0)
+			(at 199.644 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7262,7 +7427,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 187.6552 48.26 0)
+			(at 197.8152 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,7 +7438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 44.45 0)
+			(at 196.85 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7449,8 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 191.77 43.942 0)
+			(at 201.93 68.072 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7294,7 +7460,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 191.77 45.974 0)
+			(at 201.93 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7304,7 +7470,7 @@
 			)
 		)
 		(property "Field6" "X7R"
-			(at 191.77 47.752 0)
+			(at 201.93 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7314,7 +7480,17 @@
 			)
 		)
 		(property "Field7" "M1005"
-			(at 192.024 49.53 0)
+			(at 202.184 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 201.93 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7324,15 +7500,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2aabf90-6f86-4ef0-947d-39cda705588a")
+			(uuid "cac78c9c-d09f-472c-afaf-1a412f430874")
 		)
 		(pin "2"
-			(uuid "fb9a62ff-5971-4aad-9fad-b6689f4ba502")
+			(uuid "64844ed5-139f-4a0a-a19b-2627c32ecd5e")
 		)
 		(instances
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C44")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -7497,116 +7673,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5e0c6586-fb36-408a-bf6b-9822591e7467")
-		(property "Reference" "C35"
-			(at 169.164 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 169.164 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 167.3352 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "25V"
-			(at 171.45 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "X7R"
-			(at 171.45 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "M1005"
-			(at 171.704 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be4c895d-8164-4b54-aa6d-35f4eed1e11d")
-		)
-		(pin "2"
-			(uuid "66cbdb92-30da-4482-b783-fb68674e3b55")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 74.93 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -7662,6 +7728,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 75.438 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7692,6 +7759,16 @@
 		)
 		(property "Field7" "M1005"
 			(at 69.85 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "5%"
+			(at 75.184 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8013,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 68.58 0)
+		(at 229.87 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8021,9 +8098,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7651b122-4064-437b-8231-34cb8e06dc0f")
-		(property "Reference" "C39"
-			(at 209.804 64.008 0)
+		(uuid "76b5ce5f-df98-42d5-8352-517ecd26755d")
+		(property "Reference" "C78"
+			(at 232.664 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8034,7 +8111,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 209.804 66.04 0)
+			(at 232.664 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8045,7 +8122,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 207.9752 72.39 0)
+			(at 230.8352 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 68.58 0)
+			(at 229.87 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,7 +8144,8 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 212.09 68.072 0)
+			(at 234.95 68.072 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8077,7 +8155,7 @@
 			)
 		)
 		(property "Field5" "25V"
-			(at 212.09 70.104 0)
+			(at 234.95 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8087,7 +8165,7 @@
 			)
 		)
 		(property "Field6" "X7R"
-			(at 212.09 71.882 0)
+			(at 234.95 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8097,7 +8175,17 @@
 			)
 		)
 		(property "Field7" "M1005"
-			(at 212.344 73.66 0)
+			(at 235.204 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 234.95 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8107,15 +8195,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f01db52b-099d-4e73-a5d2-136ab0589e8b")
+			(uuid "e5f7f17f-3211-49d8-9bb6-2141593823d0")
 		)
 		(pin "2"
-			(uuid "33688e43-0e38-412f-b830-2cac222bc51c")
+			(uuid "73f97e45-4de7-4d62-b5c0-cc6eb6f1f41d")
 		)
 		(instances
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C39")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -8459,6 +8547,127 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "903e2b90-f7eb-41fa-a2cf-228f8d56dd12")
+		(property "Reference" "C80"
+			(at 189.484 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 189.484 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 187.6552 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 43.942 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "25V"
+			(at 191.77 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "X7R"
+			(at 191.77 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 192.024 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 191.77 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e98e825b-729f-4112-a326-d59b539ae37e")
+		)
+		(pin "2"
+			(uuid "6f0dfe64-9b08-47b6-8948-2ad8cf88e659")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -9023,6 +9232,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 218.44 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "996c353b-1f71-4792-8faa-446f8698ec0a")
+		(property "Reference" "C77"
+			(at 221.234 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 221.234 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 219.4052 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "25V"
+			(at 223.52 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "X7R"
+			(at 223.52 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 223.774 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 223.52 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff083ca9-2998-4b97-a309-166a059f4e57")
+		)
+		(pin "2"
+			(uuid "a50a2e0d-dfbb-44e5-b023-f9a0649871f0")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 81.28 97.79 0)
 		(unit 1)
@@ -9517,6 +9847,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 207.01 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cea3e860-41d1-4db2-97c1-d8def800997e")
+		(property "Reference" "C76"
+			(at 209.804 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 209.804 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 207.9752 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" "25V"
+			(at 212.09 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "X7R"
+			(at 212.09 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field7" "M1005"
+			(at 212.344 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field8" "10%"
+			(at 212.09 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0185a96-18d3-41b9-b541-0f946b5e5837")
+		)
+		(pin "2"
+			(uuid "f2ba20db-6d7e-4d75-a254-8a9d3030943c")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 109.22 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1803276-0c93-4b48-a2cf-da2b17a54f7a")
+		(property "Reference" "#FLG07"
+			(at 107.315 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 105.41 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 109.22 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dd176e7-7c9c-4a0f-ae84-23c072235978")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 67.31 0)
 		(unit 1)
@@ -9684,6 +10214,7 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 74.422 130.81 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9722,6 +10253,16 @@
 				)
 			)
 		)
+		(property "Field8" "5%"
+			(at 74.676 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02c63604-0f52-4752-a0d7-d54401ab25ae")
 		)
@@ -9732,226 +10273,6 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed16b042-86f3-4489-a172-fed9a8da4bd2")
-		(property "Reference" "C38"
-			(at 199.644 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 199.644 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 197.8152 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "25V"
-			(at 201.93 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "X7R"
-			(at 201.93 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "M1005"
-			(at 202.184 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88605570-a5d1-4194-b4ea-24818a66cf7d")
-		)
-		(pin "2"
-			(uuid "d1122d9d-d822-4140-96d5-92decf0ed7f9")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 186.69 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f46a4b41-a442-4041-8ef6-419cb1ba2928")
-		(property "Reference" "C37"
-			(at 189.484 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 189.484 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 187.6552 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 191.77 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "25V"
-			(at 191.77 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "X7R"
-			(at 191.77 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "M1005"
-			(at 192.024 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3f321d8-560a-4db8-9383-e6c121d0fb54")
-		)
-		(pin "2"
-			(uuid "ed18b293-3242-4028-ae4b-3f15596df890")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10031,116 +10352,6 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9685d27-3474-47d1-b4b7-8507ba3f9252")
-		(property "Reference" "C41"
-			(at 232.664 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 232.664 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 230.8352 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "25V"
-			(at 234.95 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "X7R"
-			(at 234.95 71.882 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "M1005"
-			(at 235.204 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38835af5-a1b1-4554-b8d1-86c20e2cb5bb")
-		)
-		(pin "2"
-			(uuid "a8818d3a-b471-448f-9f39-a6918d7307b3")
-		)
-		(instances
-			(project "R.A.W.R"
-				(path "/2e25a181-2d09-4815-b900-9881fc510404/d7847df5-016b-4dd9-9995-9480afcd9cf7"
-					(reference "C41")
 					(unit 1)
 				)
 			)

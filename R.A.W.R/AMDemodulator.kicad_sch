@@ -1542,6 +1542,18 @@
 		(color 0 0 0 0)
 		(uuid "e31390e7-60c9-4584-9f0d-263436854b77")
 	)
+	(no_connect
+		(at 191.77 45.72)
+		(uuid "071198c4-251e-4e35-b8b3-e5118f24ecd6")
+	)
+	(no_connect
+		(at 207.01 48.26)
+		(uuid "38442aae-276f-44d0-950b-5b99e7162bdb")
+	)
+	(no_connect
+		(at 191.77 50.8)
+		(uuid "3e4b37f6-a82c-4b54-a3fb-71c38533badc")
+	)
 	(wire
 		(pts
 			(xy 88.9 105.41) (xy 85.09 105.41)
@@ -7222,6 +7234,104 @@
 			(project "R.A.W.R"
 				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 199.39 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04027f8-6671-4499-a06c-6c82028e96ae")
+		(property "Reference" "U1"
+			(at 199.39 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 199.39 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RAWR:DIP794W53P254L959H508Q8N"
+			(at 199.39 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 199.39 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 199.39 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bed444f1-8b37-4c2a-ae2f-d10cd803e000")
+		)
+		(pin "7"
+			(uuid "eb7f3b14-41d3-478e-92d2-070485b8e553")
+		)
+		(pin "5"
+			(uuid "bd185013-9f32-4d8d-8b0c-e7104a186e9c")
+		)
+		(pin "3"
+			(uuid "4e80939d-ab54-415f-bc09-72d8c41e6fb2")
+		)
+		(pin "4"
+			(uuid "f569e6da-8538-4144-9cd3-9baba23ac49b")
+		)
+		(pin "2"
+			(uuid "40bc1ed5-7e0f-4133-a70e-b88c5c5fe8ad")
+		)
+		(pin "8"
+			(uuid "cbb1fa81-1cc8-4c3e-b86c-57403f01e712")
+		)
+		(pin "6"
+			(uuid "7e99b4d0-ae62-4596-8a3b-ba45c138afe4")
+		)
+		(instances
+			(project "R.A.W.R"
+				(path "/2e25a181-2d09-4815-b900-9881fc510404/a77848b9-e1c7-49cf-a5bf-3b578d61be8d"
+					(reference "U1")
 					(unit 1)
 				)
 			)
